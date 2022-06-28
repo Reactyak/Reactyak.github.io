@@ -1,0 +1,168 @@
+@keyframes heart {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret';
+}
+
+body {
+    background-color: rgba(231, 40, 134, 0.45);
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
+.content p{
+    margin: 0 auto  ;
+    max-width: 400px;
+    text-align: center;
+}
+
+.heart_img {
+    animation: heart 2s infinite;
+    width: 200px;
+    height: 200px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    height: 400px;
+}
+
+.items {
+    width: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.photo {
+    display: block;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.back,
+.next {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.item {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(65, 65, 65);
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    transform: translateX(0);
+    transition: 0.9s all;
+}
+
+.btn {
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid #414141;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #414141;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: none;
+    cursor: pointer;
+    transition: 0.7s all;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(179, 99, 99);
+    color: rgb(204, 204, 204);
+}
+
+.img {
+    width: 100%;
+}
+
+.heart {
+    visibility: hidden;
+    width: 50px;
+    height: 50px;
+    transform: translateY(0px);
+    transition-property: transform, opacity;
+}
+
+.ease-in {
+    visibility: initial;
+    opacity: 1;
+    transition-timing-function: ease-in;
+    transition-duration: 8s, 3s;
+}
+
+.ease-in2 {
+    visibility: initial;
+    opacity: 1;
+    transition-duration: 6s, 9s;
+    transition-timing-function: ease-in;
+}
+
+.ease-out2 {
+    visibility: initial;
+    opacity: 1;
+    transition-duration: 9s, 7s;
+    transition-timing-function: ease-out;
+}
+
+.ease-out {
+    visibility: initial;
+    opacity: 1;
+    transition-duration: 7s, 5s;
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out2 {
+    visibility: initial;
+    opacity: 1;
+    transition-duration: 8s, 5s;
+    transition-timing-function: ease-in-out;
+}
+
+.ease-in-out {
+    visibility: initial;
+    opacity: 1;
+    transition-duration: 7s, 8s;
+    transition-timing-function: ease-in-out;
+}
