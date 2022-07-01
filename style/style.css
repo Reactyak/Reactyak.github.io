@@ -168,3 +168,64 @@ body {
     transition-duration: 7s, 8s;
     transition-timing-function: ease-in-out;
 }
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+        margin: auto;
+    }
+
+    .items {
+        width: 470px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    
+    .photo {
+        display: block;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .item {
+        width: 400px;
+        height: 350px;
+        background-color: rgb(65, 65, 65);
+        color: #fff;
+        border-radius: 20px;
+        text-align: center;
+        transform: translateX(0);
+        transition: 0.9s all;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 480px;
+        margin: auto;
+    }
+
+    .items {
+        width: 470px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    
+    .photo {
+        display: block;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .item {
+        width: 400px;
+        height: 350px;
+        background-color: rgb(65, 65, 65);
+        color: #fff;
+        border-radius: 20px;
+        text-align: center;
+        transform: translateX(0);
+        transition: 0.9s all;
+    }
+}
