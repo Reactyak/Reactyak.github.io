@@ -55,6 +55,7 @@ body {
     align-items: center;
     margin-top: 70px;
     height: 400px;
+    border-radius: 20px;
 }
 
 .items {
@@ -293,6 +294,7 @@ audio {
         align-items: center;
         margin-top: 50px;
         height: 400px;
+        border-radius: 20px;
     }
     
     .wrapper {
