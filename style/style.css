@@ -259,7 +259,7 @@ audio {
 
     .items {
         width: 300px;
-        border-radius: 30px;
+        border-radius: 20px;
         overflow: hidden;
     }
     
@@ -293,5 +293,11 @@ audio {
         align-items: center;
         margin-top: 50px;
         height: 400px;
+    }
+    
+    .wrapper {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
     }
 }
